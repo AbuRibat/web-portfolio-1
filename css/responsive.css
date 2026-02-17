@@ -1,0 +1,156 @@
+@media(max-width:460px) {
+  .container{
+    width:90%;
+  }
+
+  .nav_menu{
+    display:none !important;
+  }
+  .humburger{
+  display: block !important;
+  }
+  .hire_me{
+  padding:8px 16px;
+  margin-top: 4px;
+  }
+
+  .hire_me>a{
+    padding: 8px 16px !important;
+    font-size: 14px;
+  }
+
+  .logo{
+    width: 80px !important;
+  }
+
+  .hero_wrapper{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .hero_left{
+    width: 100%;
+  }
+  .left_top{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .user_info{
+    text-align: center;
+  }
+
+  .social_media{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+  .button_group{
+    justify-content: center;
+  }
+
+ .left_bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+  .usr_meta>div{
+    padding-right: 20px;
+  }
+
+  .hero_right{
+    width: 100%;
+  }
+  .hero_right>img{
+    width: 100%;
+  }
+
+  .section_dscription{
+    text-align: center;
+  }
+
+  .description{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .about_wrapper{
+    grid-template-columns: repeat(1,1fr);
+    gap: 0px;
+  }
+
+  .about_right{
+    padding-top: 2rem;
+  }
+  .about_text{
+    gap: 10PX;
+    
+  }
+
+  .skill_wrapper{
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+  }
+ 
+
+
+
+    .filter_bottons{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+    }
+
+  .filter_btn{
+    padding: 5px 15px;
+    font-size: 12px;
+    text-align: center !important;
+    }
+
+
+   
+    .filter_items{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .first{
+      text-align: center;
+    }
+    .second{
+      text-align: center;
+    }
+    .last{
+      text-align: center;
+    }
+
+    .input_field>textarea{
+      width: 100%;
+    }
+
+
+    .contact_form{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+
+   
+    }
+
+    .input_field>input{
+      width: 100%;
+    }
+
+
+
+ 
+
+}
