@@ -443,7 +443,7 @@ a.filter_btn.active:hover{
     border-radius: 7px;
 }
 textarea {
-    width: 57rem;
+    width: 40rem;
     padding: 10px;
     font-size: 15px;
     height: 140px;
@@ -464,9 +464,8 @@ textarea {
     border-radius: 8px;
     color: var(--secondary-color);
     float: right;
-    margin-right: 20px;
+    margin-right: 180px;
     margin-top: 20px;
-
     transition: all 0.2s linear;
 }
 .submit_button:hover{
